@@ -10,7 +10,7 @@ public class HelloWorld {
 
     @GetMapping("/")
     public String helloWorld() {
-        return "Hello world ! This is spring boot demo app !";
+        return "Hello world ! This is spring boot demo app ! (app in git)";
     }
 
 }
